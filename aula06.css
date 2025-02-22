@@ -1,0 +1,107 @@
+/*Paleta de cores
+vermelho       #db3026
+laranja        #e88a25
+amarelo        #f9e14b
+amarelo claro  #efed89
+verde          #7abf66
+
+*/
+
+body {
+    background-color: #efed89;
+}
+
+/*CABEÇALHO*/
+header {
+    padding: 50px;
+    background-color: #db3026;
+
+}
+
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bold;
+    color: #efed89;
+    text-align: center;
+}
+
+header nav {
+    color: #7abf66;
+    text-align: right;  
+    
+}
+
+
+
+/*SESSÕES DA PAGINA*/
+.primeira_sessao {
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-style: italic;
+    background-color: #efed89 ;
+}
+
+.segunda_sessao{
+    padding: 30px;
+    background-color: #e88a25;
+
+}
+
+.segunda_sessao h3 {
+    text-align: center;
+    color: #db3026;
+}
+
+.segunda_sessao p {
+    text-align: justify;
+}
+
+.segunda_sessao ol li details summary {
+    color: #db3026;
+}
+
+.segunda_sessao ol li p {
+    text-align: justify;
+    font-style: italic;
+}
+
+.terceira_sessao {
+    padding: 20px;
+    background-color: #7abf66;
+    text-align: center;
+}
+
+.terceira_sessao h4 {
+    text-align: center;
+    color:  black;
+}
+
+.terceira_sessao button {
+    color: #db3026;
+    border-radius: 20%;
+}
+
+/*RODAPÉ DA PAGINA*/
+footer {
+    text-align: center;
+
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer a i {
+    width: 50px;
+    
+}
+
+.autor {
+    font-style: italic;
+    font-size: 10px;
+    padding: 10px;
+}
