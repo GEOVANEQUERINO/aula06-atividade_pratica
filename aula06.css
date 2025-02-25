@@ -1,4 +1,5 @@
 /*Paleta de cores
+
 vermelho       #db3026
 laranja        #e88a25
 amarelo        #f9e14b
@@ -15,21 +16,46 @@ body {
 header {
     padding: 50px;
     background-color: #db3026;
+    display: flex; /*TORNA OS ITENS FLEX E DEIXA LADO A LADO*/
+    justify-content: center;/*ORGANIZA OS CONTEUDOS AO CENTRO */
+    gap: 30px; /*ESPAÇAMENTO ENTRE OS ITENS*/
+    align-items: center;/*ALINHAMENTO DOS ITENS*/
 
 }
 
+header img {
+    width: 150px;
+    border-radius: 30%;
+}
+
 header h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
     font-style: italic;
     font-weight: bold;
     color: #efed89;
     text-align: center;
 }
 
+header h5 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+   
+}
+
 header nav {
     color: #7abf66;
     text-align: right;  
+    
+    
+}
+
+header nav ul li a {
+    color: #efed89;
     
 }
 
@@ -38,11 +64,23 @@ header nav {
 /*SESSÕES DA PAGINA*/
 .primeira_sessao {
     padding: 30px;
-    text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     font-style: italic;
-    background-color: #efed89 ;
+    background-color: #efed89 ; 
+    display: flex; /*DEIXANDO FLEX*/
+    justify-content: center;/*JUSTIFICANDO O CONTEUDO AO CENTRO*/
+    align-items: center; /*ALINHANDO OS ITENS AO CENTRO*/
+    gap: 30px;/*ESPAÇO ENTRE OS ITENS*/
+}
+
+.primeira_sessao p {
+    text-align: justify;
+}
+
+.primeira_sessao img {
+    width: 600px;
+    border-radius: 10%;
 }
 
 .segunda_sessao{
@@ -62,6 +100,7 @@ header nav {
 
 .segunda_sessao ol li details summary {
     color: #db3026;
+    font-size: 20px;
 }
 
 .segunda_sessao ol li p {
@@ -70,9 +109,12 @@ header nav {
 }
 
 .terceira_sessao {
-    padding: 20px;
-    background-color: #7abf66;
-    text-align: center;
+    padding: 120px;
+    background-image: url(img/pessoas-cafe.jpg);/*CAMINHO DA IMAGEM*/
+    background-position: center; /*POSIÇÃO DA IMAGEM*/
+    background-size: cover; /*PREENCHIMENTO TOTAL DA IMAGEM*/
+    align-items: center;
+    
 }
 
 .terceira_sessao h4 {
