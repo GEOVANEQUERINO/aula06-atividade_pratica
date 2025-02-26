@@ -43,23 +43,18 @@ header h5 {
     font-style: italic;
     font-weight: bold;
     color: black;
-    text-align: center;
-   
+    text-align: center;   
 }
 
 header nav {
     color: #7abf66;
-    text-align: right;  
-    
-    
+    text-align: right;     
 }
 
 header nav ul li a {
     color: #efed89;
     
 }
-
-
 
 /*SESSÕES DA PAGINA*/
 .primeira_sessao {
@@ -109,23 +104,25 @@ header nav ul li a {
 }
 
 .terceira_sessao {
-    padding: 120px;
+    padding: 350px;
     background-image: url(img/pessoas-cafe.jpg);/*CAMINHO DA IMAGEM*/
     background-position: center; /*POSIÇÃO DA IMAGEM*/
-    background-size: cover; /*PREENCHIMENTO TOTAL DA IMAGEM*/
-    align-items: center;
-    
+    background-size: cover; /*PREENCHIMENTO TOTAL DA IMAGEM*/ 
+    display: flex;/* tornando os itens flex*/
+    justify-content: center; /*Alinhando o botao ao centro*/    
 }
 
 .terceira_sessao h4 {
     text-align: center;
     color:  black;
+    font-size: 10px;
 }
 
-.terceira_sessao button {
-    color: #db3026;
-    border-radius: 20%;
-}
+.terceira_sessao button {    
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+  }  
 
 /*RODAPÉ DA PAGINA*/
 footer {
@@ -139,6 +136,8 @@ footer p {
 
 footer a i {
     width: 50px;
+    font-size: 30px;
+    color: #db3026;
     
 }
 
